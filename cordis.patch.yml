@@ -1,0 +1,5 @@
+# Mobile UX bundle: mounts the host plugin that injects viewport / keyboard /
+# sidebar / touch fixes into the served Web GUI index.
+- insert:
+    - id: mobile-ux
+      name: dsh-plugin-mobile-ux

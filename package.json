@@ -1,0 +1,45 @@
+{
+  "name": "dsh-plugin-mobile-ux",
+  "version": "0.1.0",
+  "description": "Mobile / touch adaptations for the DeepSeek Harness Web GUI: iOS viewport & keyboard, sidebar tap & auto-collapse, and a GPU slide+fade animation.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.5",
+    "@deepseek-ai/schemastery": "~3.18.5"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "mobile",
+    "ios",
+    "android",
+    "viewport",
+    "keyboard",
+    "touch",
+    "sidebar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanwead/dsh-plugin-mobile-ux.git"
+  },
+  "homepage": "https://github.com/Sanwead/dsh-plugin-mobile-ux#readme",
+  "bugs": {
+    "url": "https://github.com/Sanwead/dsh-plugin-mobile-ux/issues"
+  }
+}
